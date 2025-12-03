@@ -10,4 +10,5 @@ dependencies = [
     "numpy>=2.3.5",
     "polars>=1.35.2",
     "pyarrow>=22.0.0",
+    "ruff>=0.14.7",
 ]
