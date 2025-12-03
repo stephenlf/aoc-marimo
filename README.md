@@ -4,6 +4,12 @@ My team recently adopted [Marimo](https://marimo.io/) as our primary tool for cl
 
 This repository serves as a gentle introduction to Python for my team, with a focus on Marimo notebooks. The hope is to turn each AOC challenge into a separate mini lesson that teaches one or more skills that I personally find useful at work. This isn't meant to be exhaustive. Rather, I just want to highlight some of the more common patterns we use with Python and Marimo.
 
+## How to use this notebook
+
+Read through each visible cell in order. Cells may contain **exercises.** If they do, use the visible python cell(s) beneath the cell with the exercise to complete the exercise.
+
+The cells that you are meant to edit will have a single commented (`#` character) line of instruction at the top. Otherwise, they will be empty.
+
 ## Running the notebook locally
 
 Clone this repository then run `uv run marimo edit`.

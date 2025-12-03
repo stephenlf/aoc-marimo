@@ -3,10 +3,6 @@ import marimo
 __generated_with = "0.18.1"
 app = marimo.App(width="medium")
 
-with app.setup:
-    # Initialization code that runs before all other cells
-    pass
-
 
 @app.cell(hide_code=True)
 def _(mo):
@@ -184,7 +180,7 @@ def do_things():
     return "Congratulations! You did it."
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     def _solve_1(input: str) -> int:
         pos = 50
